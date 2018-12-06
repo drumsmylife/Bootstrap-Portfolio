@@ -1,15 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <meta charset="UTF-8">
+  <title>Bootstrap Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-<script src="main.js"></script>
+    <nav class="navbar navbar-expand flex-column flex-md-row bd-navbar bg-white">
+   <a class="navbar-brand"></a>
+        
+          <div class="navbar-nav-scroll">
+          <ul class="navbar-nav flex-row mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" id="logo" href="#">Tommy Cervenka <span class="sr-only">(current)</span></a>
+                </li>
+          </ul>
+          </div>
+            <ul class="navbar-nav flex-row d-none d-md-flex ml-md-auto">
+            <li class="nav-item about">
+              <a class="nav-link" href="index.html">about</a>
+            </li>
+            <li class="nav-item about dropdown">
+              <a class="nav-link" href="portfolio.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                portfolio
+              </a>
+        
+            </li>
+            <li class="nav-item about">
+              <a class="nav-link" href="contact.html">contact</a>
+            </li>
+          </ul>
+      </nav>
+   
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">about</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="portfolio.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            portfolio
+          </a>
     
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+ 
+  <!-- Main Body goes in Container -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <!-- The content in this div gets wrapped in a card -->
+        <div class="card">
+          <div class="card-body">
+            <h1>About Me</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3">
+        <img src="tommyprofilepic.jpg" class="img-fluid" alt="tommyprofilepic">
+      </div>
+      <div class="col-lg-9">
+        <p>My name is Tommy Cervenka. I am 24 years old and I live in Riverside, IL. I went to Loras College in Dubuque, IA. I graduated with a bachelors in Social Work.</p>
+        <p>I am currently employed at Soaring Eagle Academy in Lombard, IL. Soaring Eagle Academy is a school for children with Autism. I am a Blue responder/Music program assistant. A blue responder is someone who ensures that the children are safe when they are dysregulated or are having a hard time calming themselves down. I help keep the children/staff safe when one of these situations occurs. My role as a music program assistant is teaching drum lessons to students who are capable of that and running small groups.</p>
+        <p>I want to change career paths and become a web developer. My dad is a computer programmer and I have seen some of the things he does and I was amazed by it. He created a few Apps and I saw all the stuff that goes into it. I decided that I want to do the same as him and push myself to learn how to code. Being able to create Apps/websites and actually have them work, will be very rewarding to me.</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-3">
+      </div>
+      <div class="col-lg-9">
+        
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-12">
+          <footer>
+              <div class="container">
+                Copyright &copy; 
+              </div>
+            </footer>
+      </div>
+    </div>
+  </div>
+  
 </body>
+
 </html>
