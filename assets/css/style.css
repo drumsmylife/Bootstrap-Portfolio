@@ -154,6 +154,12 @@ h3, h2 {
   border-bottom: 0;
 }
 
+.wordGame {
+  width: 150px;
+  height: 200px;
+  vertical-align: text-top;
+}
+
 .auth-image {
   float: left;
   width: 200px;
