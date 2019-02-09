@@ -155,9 +155,35 @@ h3, h2 {
 }
 
 .wordGame {
-  width: 150px;
-  height: 200px;
+  margin: 30px;
+  width: 300px;
+  height: 234px;
+  margin-top: -25px;
   vertical-align: text-top;
+}
+
+.crystal {
+  margin: 30px;
+  width: 300px;
+}
+
+.trivia {
+  margin: 30px;
+  width: 300px;
+}
+
+.giphy {
+  margin: 30px;
+  width: 300px;
+}
+
+.train {
+  margin: 50px;
+}
+
+.homeGame {
+  margin: 30px;
+  width: 300px;
 }
 
 .auth-image {
