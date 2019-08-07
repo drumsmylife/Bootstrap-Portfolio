@@ -4,8 +4,8 @@
 
 # Technology Used
 
-1. html
+1.html
 
-2. css
+2.css
 
-3 bootstrap css
+3.bootstrap css
