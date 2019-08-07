@@ -1,6 +1,6 @@
 # Bootstrap-Portfolio
 
-# All about me portfolio using bootstrap 
+All about me portfolio using bootstrap 
 
 # Technology Used
 
